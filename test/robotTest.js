@@ -37,12 +37,12 @@ describe("robot.js", () => {
       });
     });
 
-    it("should handle an invalid robot bearing", () => {
-      expect(() => wallE.setBearing("hotdog")).to.throw();
-      expect(() => wallE.setBearing("hotdog")).to.throw(
-        /Invalid Robot Bearing/i
-      );
-    });
+    // it("should handle an invalid robot bearing", () => {
+    //   expect(() => wallE.setBearing("hotdog")).to.throw();
+    //   expect(() => wallE.setBearing("hotdog")).to.throw(
+    //     /Invalid Robot Bearing/i
+    //   );
+    // });
   });
 
   describe("place()", () => {
